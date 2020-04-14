@@ -46,6 +46,16 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="easy HOH" id="opd-lp-J3e">
+                        <barButtonItem key="leftBarButtonItem" style="plain" id="wUE-vK-xnE">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="wxQ-9U-Ppk">
+                                <rect key="frame" x="20" y="7" width="51" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Reset"/>
+                                <connections>
+                                    <action selector="resetCounts:" destination="XPv-69-AZr" eventType="touchUpInside" id="aUx-h0-VcL"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="uZj-co-z0K">
                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>

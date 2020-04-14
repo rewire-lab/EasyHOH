@@ -14,6 +14,7 @@
 		DF7853C524461E7D00014032 /* Easy_HOH.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DF7853C324461E7D00014032 /* Easy_HOH.xcdatamodeld */; };
 		DF7853C724461E7E00014032 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF7853C624461E7E00014032 /* Assets.xcassets */; };
 		DF7853CA24461E7E00014032 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF7853C824461E7E00014032 /* LaunchScreen.storyboard */; };
+		DF7853D624466BFC00014032 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DF7853D424466BFC00014032 /* DataModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		DF7853C624461E7E00014032 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF7853C924461E7E00014032 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF7853CB24461E7E00014032 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF7853D524466BFC00014032 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,14 +62,47 @@
 			children = (
 				DF7853BA24461E7D00014032 /* AppDelegate.swift */,
 				DF7853BC24461E7D00014032 /* SceneDelegate.swift */,
-				DF7853BE24461E7D00014032 /* ViewController.swift */,
-				DF7853C024461E7D00014032 /* Main.storyboard */,
-				DF7853C624461E7E00014032 /* Assets.xcassets */,
-				DF7853C824461E7E00014032 /* LaunchScreen.storyboard */,
+				DF7853D124466BA200014032 /* Controllers */,
+				DF7853D724466C0300014032 /* DataModel */,
+				DF7853D224466BB100014032 /* Views */,
+				DF7853D324466BC800014032 /* Supporting Files */,
 				DF7853CB24461E7E00014032 /* Info.plist */,
 				DF7853C324461E7D00014032 /* Easy_HOH.xcdatamodeld */,
 			);
 			path = "Easy HOH";
+			sourceTree = "<group>";
+		};
+		DF7853D124466BA200014032 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DF7853BE24461E7D00014032 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DF7853D224466BB100014032 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DF7853C024461E7D00014032 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DF7853D324466BC800014032 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF7853C624461E7E00014032 /* Assets.xcassets */,
+				DF7853C824461E7E00014032 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF7853D724466C0300014032 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				DF7853D424466BFC00014032 /* DataModel.xcdatamodeld */,
+			);
+			path = DataModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +177,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF7853BF24461E7D00014032 /* ViewController.swift in Sources */,
+				DF7853D624466BFC00014032 /* DataModel.xcdatamodeld in Sources */,
 				DF7853C524461E7D00014032 /* Easy_HOH.xcdatamodeld in Sources */,
 				DF7853BB24461E7D00014032 /* AppDelegate.swift in Sources */,
 				DF7853BD24461E7D00014032 /* SceneDelegate.swift in Sources */,
@@ -351,6 +387,16 @@
 			);
 			currentVersion = DF7853C424461E7D00014032 /* Easy_HOH.xcdatamodel */;
 			path = Easy_HOH.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		DF7853D424466BFC00014032 /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DF7853D524466BFC00014032 /* DataModel.xcdatamodel */,
+			);
+			currentVersion = DF7853D524466BFC00014032 /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
